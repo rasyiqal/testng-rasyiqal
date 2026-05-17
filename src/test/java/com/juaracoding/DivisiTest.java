@@ -26,6 +26,6 @@ public class DivisiTest {
 
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testTambahKaryawanNullException() {
-        divisi.tambahKaryawan(null); // Harus melempar exception
+        divisi.tambahKaryawan(null); 
     }
 }

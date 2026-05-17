@@ -29,13 +29,13 @@ public class KaryawanTest {
     @Test
     public void testUpdateGajiPositif() {
         Karyawan karyawan = new Karyawan("Dodi", "Staff", 5000000);
-        karyawan.updateGaji(10); // Naik 10%
+        karyawan.updateGaji(10); 
         Assert.assertEquals(karyawan.getGajiPokok(), 5500000.0, "Gaji pokok harus naik 10%");
     }
 
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testUpdateGajiNegatifException() {
         Karyawan karyawan = new Karyawan("Eka", "Staff", 5000000);
-        karyawan.updateGaji(-5); // Harus melempar exception
+        karyawan.updateGaji(-5); 
     }
 }

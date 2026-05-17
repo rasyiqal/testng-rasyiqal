@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-17T20:41:37 WIB" name="Surefire suite" finished-at="2026-05-17T20:41:37 WIB" duration-ms="47">
+  <suite started-at="2026-05-17T20:53:05 WIB" name="Surefire suite" finished-at="2026-05-17T20:53:05 WIB" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2026-05-17T20:41:37 WIB" name="Surefire test" finished-at="2026-05-17T20:41:37 WIB" duration-ms="47">
+    <test started-at="2026-05-17T20:53:05 WIB" name="Surefire test" finished-at="2026-05-17T20:53:05 WIB" duration-ms="35">
       <class name="com.juaracoding.DivisiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:41:37 WIB" name="setUp" finished-at="2026-05-17T20:41:37 WIB" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:53:05 WIB" name="setUp" finished-at="2026-05-17T20:53:05 WIB" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTambahKaryawanDanGetJumlah()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:41:37 WIB" name="testTambahKaryawanDanGetJumlah" finished-at="2026-05-17T20:41:37 WIB" duration-ms="7" status="PASS">
+        <test-method signature="testTambahKaryawanDanGetJumlah()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:53:05 WIB" name="testTambahKaryawanDanGetJumlah" finished-at="2026-05-17T20:53:05 WIB" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTambahKaryawanDanGetJumlah -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:41:37 WIB" name="setUp" finished-at="2026-05-17T20:41:37 WIB" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:53:05 WIB" name="setUp" finished-at="2026-05-17T20:53:05 WIB" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTambahKaryawanNullException()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:41:37 WIB" name="testTambahKaryawanNullException" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
+        <test-method signature="testTambahKaryawanNullException()[pri:0, instance:com.juaracoding.DivisiTest@258e2e41]" started-at="2026-05-17T20:53:05 WIB" name="testTambahKaryawanNullException" finished-at="2026-05-17T20:53:05 WIB" duration-ms="0" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Karyawan tidak boleh null]]>
@@ -67,19 +67,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testTambahKaryawanNullException -->
       </class> <!-- com.juaracoding.DivisiTest -->
       <class name="com.juaracoding.KaryawanTest">
-        <test-method signature="testHitungGajiTotalLainnya()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:41:37 WIB" name="testHitungGajiTotalLainnya" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHitungGajiTotalLainnya -->
-        <test-method signature="testHitungGajiTotalManager()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:41:37 WIB" name="testHitungGajiTotalManager" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
+        <test-method signature="testHitungGajiTotalManager()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:53:05 WIB" name="testHitungGajiTotalManager" finished-at="2026-05-17T20:53:05 WIB" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHitungGajiTotalManager -->
-        <test-method signature="testHitungGajiTotalStaff()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:41:37 WIB" name="testHitungGajiTotalStaff" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
+        <test-method signature="testHitungGajiTotalLainnya()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:53:05 WIB" name="testHitungGajiTotalLainnya" finished-at="2026-05-17T20:53:05 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHitungGajiTotalLainnya -->
+        <test-method signature="testHitungGajiTotalStaff()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:53:05 WIB" name="testHitungGajiTotalStaff" finished-at="2026-05-17T20:53:05 WIB" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHitungGajiTotalStaff -->
-        <test-method signature="testUpdateGajiNegatifException()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:41:37 WIB" name="testUpdateGajiNegatifException" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
+        <test-method signature="testUpdateGajiNegatifException()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:53:05 WIB" name="testUpdateGajiNegatifException" finished-at="2026-05-17T20:53:05 WIB" duration-ms="0" status="PASS">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Persentase tidak boleh negatif]]>
@@ -125,7 +125,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateGajiNegatifException -->
-        <test-method signature="testUpdateGajiPositif()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:41:37 WIB" name="testUpdateGajiPositif" finished-at="2026-05-17T20:41:37 WIB" duration-ms="0" status="PASS">
+        <test-method signature="testUpdateGajiPositif()[pri:0, instance:com.juaracoding.KaryawanTest@197d671]" started-at="2026-05-17T20:53:05 WIB" name="testUpdateGajiPositif" finished-at="2026-05-17T20:53:05 WIB" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateGajiPositif -->
